@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.animate-divs {
+    position: relative;
+    margin-top: 13px;
+}
+
+.animate-div1,
+.animate-div2,
+.animate-div3,
+.animate-div4,
+.animate-div5,
+.animate-div6 {
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+    /* background properties for all animate-divs ( from div1 ===to==> div6 )*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.animate-div1,
+.animate-div3,
+.animate-div5 {
+    background-image: url('../Images/run2.jpg');
+}
+
+.animate-div2,
+.animate-div4,
+.animate-div6 {
+    background-image: url('../Images/run2-flip.jpg');
+}
+
+.animate-div1 {
+    animation-name: animate1;
+}
+
+@keyframes animate1 {
+    0% {
+        left: 0;
+        background-image: url('../Images/run2.jpg');
+    }
+
+    25% {
+        background-image: url('../Images/run1.jpg');
+    }
+
+    50% {
+        background-image: url('../Images/run2.jpg');
+
+    }
+
+    100% {
+        left: 1216px;
+        background-image: url('../Images/run1.jpg');
+
+    }
+}
+
+.animate-div2 {
+    animation-name: animate2;
+    animation-delay: 3s;
+    top: 100px;
+    left: 1216px;
+}
+
+@keyframes animate2 {
+    0% {
+        left: 1216px;
+        background-image: url('../Images/run2-flip.jpg');
+    }
+
+    25% {
+        background-image: url('../Images/run1-flip.jpg');
+    }
+
+    50% {
+        background-image: url('../Images/run2-flip.jpg');
+    }
+
+    100% {
+        left: 0;
+        background-image: url('../Images/run1-flip.jpg');
+    }
+}
+
+.animate-div3 {
+    animation-name: animate3;
+    animation-delay: 6s;
+    top: 200px;
+}
+
+@keyframes animate3 {
+    0% {
+        left: 0;
+        background-image: url('../Images/run2.jpg');
+    }
+
+    25% {
+        background-image: url('../Images/run1.jpg');
+    }
+
+    50% {
+        background-image: url('../Images/run2.jpg');
+    }
+
+    100% {
+        left: 1216px;
+        background-image: url('../Images/run1.jpg');
+    }
+}
+
+.animate-div4 {
+    animation-name: animate4;
+    animation-delay: 9s;
+    top: 300px;
+    left: 1216px;
+}
+
+@keyframes animate4 {
+    0% {
+        left: 1216px;
+        background-image: url('../Images/run2-flip.jpg');
+    }
+
+    25% {
+        background-image: url('../Images/run1-flip.jpg');
+    }
+
+    50% {
+        background-image: url('../Images/run2-flip.jpg');
+
+    }
+
+    100% {
+        left: 0;
+        background-image: url('../Images/run1-flip.jpg');
+    }
+}
+
+.animate-div5 {
+    animation-name: animate5;
+    animation-delay: 12s;
+    top: 400px;
+}
+
+@keyframes animate5 {
+    0% {
+        left: 0;
+        background-image: url('../Images/run2.jpg');
+    }
+
+    25% {
+        background-image: url('../Images/run1.jpg');
+    }
+
+    50% {
+        background-image: url('../Images/run2.jpg');
+    }
+
+    100% {
+        left: 1216px;
+        background-image: url('../Images/run1.jpg');
+    }
+}
+
+.animate-div6 {
+    animation-name: animate6;
+    animation-delay: 15s;
+    top: 500px;
+    left: 1216px;
+}
+
+@keyframes animate6 {
+    0% {
+        left: 1216px;
+        background-image: url('../Images/run2-flip.jpg');
+    }
+
+    25% {
+        background-image: url('../Images/run1-flip.jpg');
+    }
+
+    50% {
+        background-image: url('../Images/run2-flip.jpg');
+    }
+
+    100% {
+        left: 0;
+        background-image: url('../Images/run1-flip.jpg');
+    }
+}
