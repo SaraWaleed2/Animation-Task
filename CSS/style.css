@@ -31,13 +31,13 @@
 .animate-div1,
 .animate-div3,
 .animate-div5 {
-    background-image: url('../Images/run2.jpg');
+    background-image: url('../Images/run2-removebg-preview.png');
 }
 
 .animate-div2,
 .animate-div4,
 .animate-div6 {
-    background-image: url('../Images/run2-flip.jpg');
+    background-image: url('../Images/run2-flip-removebg-preview.png');
 }
 
 .animate-div1 {
@@ -47,21 +47,21 @@
 @keyframes animate1 {
     0% {
         left: 0;
-        background-image: url('../Images/run2.jpg');
+        background-image: url('../Images/run2-removebg-preview.png');
     }
 
     25% {
-        background-image: url('../Images/run1.jpg');
+        background-image: url('../Images/run1-removebg-preview.png');
     }
 
     50% {
-        background-image: url('../Images/run2.jpg');
+        background-image: url('../Images/run2-removebg-preview.png');
 
     }
 
     100% {
         left: 1216px;
-        background-image: url('../Images/run1.jpg');
+        background-image: url('../Images/run1-removebg-preview.png');
 
     }
 }
@@ -76,20 +76,20 @@
 @keyframes animate2 {
     0% {
         left: 1216px;
-        background-image: url('../Images/run2-flip.jpg');
+        background-image: url('../Images/run2-flip-removebg-preview.png');
     }
 
     25% {
-        background-image: url('../Images/run1-flip.jpg');
+        background-image: url('../Images/run1-flip-removebg-preview.png');
     }
 
     50% {
-        background-image: url('../Images/run2-flip.jpg');
+        background-image: url('../Images/run2-flip-removebg-preview.png');
     }
 
     100% {
         left: 0;
-        background-image: url('../Images/run1-flip.jpg');
+        background-image: url('../Images/run1-flip-removebg-preview.png');
     }
 }
 
@@ -102,20 +102,20 @@
 @keyframes animate3 {
     0% {
         left: 0;
-        background-image: url('../Images/run2.jpg');
+        background-image: url('../Images/run2-removebg-preview.png');
     }
 
     25% {
-        background-image: url('../Images/run1.jpg');
+        background-image: url('../Images/run1-removebg-preview.png');
     }
 
     50% {
-        background-image: url('../Images/run2.jpg');
+        background-image: url('../Images/run2-removebg-preview.png');
     }
 
     100% {
         left: 1216px;
-        background-image: url('../Images/run1.jpg');
+        background-image: url('../Images/run1-removebg-preview.png');
     }
 }
 
@@ -129,21 +129,21 @@
 @keyframes animate4 {
     0% {
         left: 1216px;
-        background-image: url('../Images/run2-flip.jpg');
+        background-image: url('../Images/run2-flip-removebg-preview.png');
     }
 
     25% {
-        background-image: url('../Images/run1-flip.jpg');
+        background-image: url('../Images/run1-flip-removebg-preview.png');
     }
 
     50% {
-        background-image: url('../Images/run2-flip.jpg');
+        background-image: url('../Images/run2-flip-removebg-preview.png');
 
     }
 
     100% {
         left: 0;
-        background-image: url('../Images/run1-flip.jpg');
+        background-image: url('../Images/run1-flip-removebg-preview.png');
     }
 }
 
@@ -156,20 +156,20 @@
 @keyframes animate5 {
     0% {
         left: 0;
-        background-image: url('../Images/run2.jpg');
+        background-image: url('../Images/run2-removebg-preview.png');
     }
 
     25% {
-        background-image: url('../Images/run1.jpg');
+        background-image: url('../Images/run1-removebg-preview.png');
     }
 
     50% {
-        background-image: url('../Images/run2.jpg');
+        background-image: url('../Images/run2-removebg-preview.png');
     }
 
     100% {
         left: 1216px;
-        background-image: url('../Images/run1.jpg');
+        background-image: url('../Images/run1-removebg-preview.png');
     }
 }
 
@@ -183,19 +183,19 @@
 @keyframes animate6 {
     0% {
         left: 1216px;
-        background-image: url('../Images/run2-flip.jpg');
+        background-image: url('../Images/run2-flip-removebg-preview.png');
     }
 
     25% {
-        background-image: url('../Images/run1-flip.jpg');
+        background-image: url('../Images/run1-flip-removebg-preview.png');
     }
 
     50% {
-        background-image: url('../Images/run2-flip.jpg');
+        background-image: url('../Images/run2-flip-removebg-preview.png');
     }
 
     100% {
         left: 0;
-        background-image: url('../Images/run1-flip.jpg');
+        background-image: url('../Images/run1-flip-removebg-preview.png');
     }
 }
